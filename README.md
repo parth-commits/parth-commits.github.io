@@ -1,2 +1,2 @@
-# parth-commits.github.io
-portfolio page
+# portfolio-website
+This is the repo to my portfolio website

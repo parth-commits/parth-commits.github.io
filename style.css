@@ -1,0 +1,1332 @@
+/* cyrillic */
+
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.abs {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+.blobsArea {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+    display: block;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.blobs {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.blobs li {
+    position: absolute;
+    display: block;
+    background: transparent;
+    animation: float 25s linear infinite;
+    bottom: -150px;
+    width: 10vw;
+    height: 10vw;
+    box-shadow: 0 0.2vw 0.5vw 0.1vw #0000003f;
+}
+
+@keyframes float{
+  0%{transform: translateY(0) rotate(0deg) ;
+  opacity: 1;
+  border-radius: 0}
+  100%{transform: translateY(-1000px) rotate(-700deg) ;
+    opacity: 0;
+    border-radius: 50%}
+}
+
+
+.blobs li:nth-child(1) {
+    left: 25%;
+    width: 6.75vw;
+    height: 6.75vw;
+    animation-delay: -40s;
+    animation-duration: 52s;
+}
+
+.blobs li:nth-child(2) {
+    left: 35%;
+    width: 13.5vw;
+    height: 13.5vw;
+    animation-delay: -8s;
+    animation-duration: 50s;
+}
+
+.blobs li:nth-child(3) {
+    left: 15%;
+    width: 9vw;
+    height: 9vw;
+    animation-delay: -17s;
+    animation-duration: 48s;
+}
+
+.blobs li:nth-child(4) {
+    left: 65%;
+    width: 12vw;
+    height: 12vw;
+    animation-delay: -14s;
+    animation-duration: 40s;
+}
+
+.blobs li:nth-child(5) {
+    left: 55%;
+    width: 8.25vw;
+    height: 8.25vw;
+    animation-delay: 28s;
+    animation-duration: 35s;
+}
+
+.blobs li:nth-child(6) {
+    left: 85%;
+    width: 12.7vw;
+    height: 12.7vw;
+    animation-delay: -27s;
+    animation-duration: 49s;
+}
+
+.blobs li:nth-child(7) {
+    left: 75%;
+    width: 10vw;
+    height: 10vw;
+    animation-delay: 10s;
+    animation-duration: 38s;
+}
+
+.blobs li:nth-child(8) {
+    left: 95%;
+    width: 7vw;
+    height: 7vw;
+    animation-delay: -30s;
+    animation-duration: 36s;
+}
+
+.blobs li:nth-child(9) {
+    left: 45%;
+    width: 9vw;
+    height: 9vw;
+    animation-delay: 10s;
+    animation-duration: 41s;
+}
+
+.blobs li:nth-child(10) {
+    left: 5%;
+    width: 11vw;
+    height: 11vw;
+    animation-delay: -29s;
+    animation-duration: 50s;
+}
+
+/*
+.bubbles{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.bubbles span {
+  position: absolute;
+  bottom: -50px;
+  background: transparent;
+  border-radius: 10%;
+  pointer-events: none;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.bubbles h2{
+  font-size: 10em;
+  color: #333;
+}*/
+
+.timeline-item-content li{
+  padding-top: 2px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  font-size: 1.25vw;
+}
+.timeline-item-content ul{
+  padding-left: 5%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+
+.timeline-item-content1{
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 10px;
+  background: #ffffff;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  box-shadow: 0 0.1vw 0.5vw 0 #00000066;
+  transition: color 0.5s;
+}
+
+.project-item-content{
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 100%;
+  font-size: 20px;
+  background: #ffffff;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  box-shadow: 0 0.1vw 0.5vw 0 #00000066;
+  transition: color 0.5s;
+}
+
+.project-item-title{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  /*padding-top: 15px;*/
+  width: 100%;
+  text-shadow: 0 0.1vw 0.5vw 0 #00000066;
+  display: grid;
+  position: relative;
+  /*background: white;*/
+  background: #276ED9;
+  background-image: linear-gradient(to right, #b3ffea,#2e7d99);
+  background-attachment: fixed;
+  /*james values: (to left, #748bed,#75d8ef);
+  /* this makes the gradient throughout all the images background-attachment: fixed;
+  this is making the background stay on black screen position: relative;*/
+  box-shadow: 0 0.1vw 0.5vw 0 #00000066;
+  user-select: none;
+  overflow: hidden;
+}
+
+
+.project-item-main-description li{
+  padding-top: 2px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  font-size: 1.25vw;
+}
+
+.project-item-main-description{
+
+  padding-left: 5vh;
+  padding-top: 5vh;
+  padding-bottom: 2vh;
+  position: absolute;
+  top: 45px;
+  width: 70%;
+  transform: translateX(20vw);
+  font-size: 2vh;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  transition: opacity 400ms ease-in, transform 400ms ease-out;
+  font-weight: 400;
+}
+
+.youtube-popout-thing img{
+  position: absolute;
+  right: 1vw;
+  bottom: 3vh;
+  width: 5vw;
+  transition: transform 600ms;
+}
+
+.youtube-popout-thing p{
+  position: absolute;
+  text-decoration: none;
+  transform: translateX(50px);
+  opacity: 0;
+  bottom: 2vw;
+  right: 6vw;
+  padding-top: 15px;
+  font-size: 1vw;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  transition: opacity 400ms ease-in, transform 400ms ease-out;
+  font-weight: 200;
+}
+
+.youtube-popout-thing:hover p{
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+.youtube-popout-thing:hover img{
+  transform: rotate(360deg);
+}
+
+.project-item-main-title{
+  position: absolute;
+  top: 0px;
+  transform: translateX(250px);
+  padding-top: 15px;
+  padding-left: 20px;
+  font-size: 30px;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  transition: opacity 400ms ease-in, transform 400ms ease-out;
+  font-weight: bold;
+}
+
+.project-item-main-date{
+  position: absolute;
+  top: 0px;
+  right:0px;
+  padding-top: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  transition: opacity 400ms ease-in, transform 400ms ease-out;
+  font-weight: 200;
+}
+
+/*The code for the logo thing*/
+
+.project-item-main-logo-and-text-github{
+  text-decoration: none;
+  width: 600px;
+  display:inline-block
+}
+
+/*
+.project-item-github-text1{
+  transform: translateY(-100%);
+  opacity: 0;
+  font-size: 1vw;
+  padding-top:10px;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  transition: opacity 400ms ease-in, transform 400ms ease-out;
+  font-weight: bold;
+}*/
+.githubimage{
+  position: absolute;
+  transform: translateY(100%);
+  transition: opacity 400ms ease-in, transform 400ms ease-out;
+  opacity: 0;
+}
+.project-item-image{
+  transform: translateY(0%);
+  transition: opacity 400ms ease-in, transform 400ms ease-out;
+  opacity: 1;
+}
+
+.project-item-main-logo:hover .githubimage{
+  transform: translateY(0%);
+  opacity: 1;
+}
+.project-item-main-logo:hover .project-item-image{
+  transform: translateY(-100%);
+  opacity: 0;
+}
+.project-item-main-logo:hover .project-item-github-text{
+  transform: translateY(0%);
+  opacity: 1;
+}
+
+.project-item-main-logo{
+  border-bottom-left-radius: 20px;
+  padding-right: 7px;
+  width: 20vw;
+  height: 25vw;
+  display: flex;
+  flex-wrap: wrap;
+  transform: translateX(0px);
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background: #276ED9;
+  background-image: linear-gradient(to right, #b3ffea,#2e7d99);
+  background-attachment: fixed;
+  /*
+  /* this makes the gradient throughout all the images background-attachment: fixed;
+  this is making the background stay on black screen position: relative;*/
+  /*box-shadow: 0 0.1vw 0.5vw 0 #00000066;*/
+  user-select: none;
+  overflow: hidden;
+}
+
+.project-item-main-logo img{
+  width: 100%;
+  padding: 10%;
+  filter: drop-shadow(0px 0.3vw 0.6vw #00000083);
+}
+
+
+/*The code for the logo thing ends here*/
+
+
+
+.project-main-site-item{
+  float: left;
+  border-radius: 18px;
+  width: 100%;
+  margin: 10px;
+  transition: 200ms;
+
+  /*float: center;
+  width: 100%;
+  height: 315px;
+  border-radius: 20px;
+  margin: 10px;
+  transition: 250ms;
+  background-color: white;
+  box-shadow: 0 0.1vw 0.5vw 0 #00000066;
+  position: relative;*/
+}
+
+
+
+.awards-section{
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 10%;
+  padding-right: 10%;
+  position: relative;
+  background: transparent;
+}
+
+/*awards cases*/
+.awards-item{
+  float: left;
+  border-radius: 18px;
+  width: 90%;
+  margin: 10px;
+  transition: 200ms;
+  /*cursor: pointer;*/
+}
+
+.award-item-title{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  /*padding-top: 15px;*/
+  width: 100%;
+  text-shadow: 0 0.1vw 0.5vw 0 #00000066;
+  display: grid;
+  position: relative;
+  /*background: white;*/
+  background: #276ED9;
+  background-image: linear-gradient(to left, #2e7d99,#B3FFEA, #2e7d99);
+  /*james values: (to left, #748bed,#75d8ef);
+  /* this makes the gradient throughout all the images background-attachment: fixed;
+  this is making the background stay on black screen position: relative;*/
+  box-shadow: 0 0.1vw 0.5vw 0 #00000066;
+  user-select: none;
+  overflow: hidden;
+}
+
+
+
+
+.contact-section{
+  width: 100%;
+  min-height: 20vh;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  position: relative;
+  background: #276ED9;
+  background-image: linear-gradient(to right, #2E7D99,#5AA8B4);
+  overflow: hidden;
+}
+
+.footer-email {
+    font-size: 2vw;
+    text-align: center;
+    padding-bottom: 7px;
+    padding-top: 14px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    user-select: all;
+}
+
+.footer-contact{
+  text-align:center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2vw;
+  font-weight: 600;
+}
+
+.footer-sm{
+  float: center;
+  padding-top: 15px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: inline-block;
+  align-items: center;
+}
+
+.footer-sm img{
+  width: 55px;
+  height: 55px;
+  padding: 10px;
+  opacity: 0.5;
+  float: left;
+}
+
+
+.button-allprojects-holder{
+  transform: scale(1.2);
+}
+
+.button-allprojects{
+  position: absolute;
+  bottom: 90px;
+  font-family: 'Roboto', sans-serif;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.5s;
+  color: #000000;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.button-allprojects:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  background-image: linear-gradient(to right, #b3ffea,#71BEC2);
+  z-index: -1;
+  transition: transform 0.5s;
+  transform-origin: bottom right;
+  transform: scale(0);
+}
+
+.button-allprojects:hover:before{
+  transition: transform 0.5s;
+  transform-origin: top left;
+  transform: scale(1);
+
+}
+
+.button-allprojects:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: 4px solid #b3ffea;
+  box-sizing: border-box;
+  z-index: -1;
+  transition: transform 0.5s;
+  transform-origin: top left;
+  transform: scale(1);
+
+}
+
+.button-allprojects:hover:after{
+  transition: transform 0.5s;
+  transform-origin: bottom right;
+  transform: scale(0);
+}
+
+.wrapper03{
+  display: flex;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content: center;
+  padding-bottom: 250px;
+}
+
+.project-item{
+  float: center;
+  border-radius: 10px;
+  width: 300px;
+  height: 315px;
+  margin: 10px;
+  transition: 250ms;
+  cursor: pointer;
+}
+.project-item-logo-and-text-github{
+  text-decoration: none;
+}
+.project-item-github-text{
+  transform: translateY(-100%);
+  opacity: 0;
+  font-size: 20px;
+  padding-top:10px;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  transition: opacity 400ms ease-in, transform 400ms ease-out;
+  font-weight: bold;
+}
+.githubimage{
+  position: absolute;
+  transform: translateY(100%);
+  transition: opacity 400ms ease-in, transform 400ms ease-out;
+  opacity: 0;
+}
+.project-item-image{
+  transform: translateY(-10%);
+  transition: opacity 400ms ease-in, transform 400ms ease-out;
+  opacity: 1;
+}
+
+.project-item-logo:hover .githubimage{
+  transform: translateY(0%);
+  opacity: 1;
+}
+.project-item-logo:hover .project-item-image{
+  transform: translateY(-100%);
+  opacity: 0;
+}
+.project-item-logo:hover .project-item-github-text{
+  transform: translateY(0%);
+  opacity: 1;
+}
+
+.project-item-logo{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-right: 7px;
+  width: 250px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  transform: translateX(30px);
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background: #276ED9;
+  background-image: linear-gradient(to right, #b3ffea,#2e7d99);
+  background-attachment: fixed;
+  /*james values: (to left, #748bed,#75d8ef);
+  /* this makes the gradient throughout all the images background-attachment: fixed;
+  this is making the background stay on black screen position: relative;*/
+  box-shadow: 0 0.1vw 0.5vw 0 #00000066;
+  user-select: none;
+  overflow: hidden;
+}
+
+.project-item-logo img{
+  width: 100%;
+  padding: 20%;
+  filter: drop-shadow(0px 0.3vw 0.6vw #00000083);
+}
+
+.project-item-text{
+  transform: translateX(30px);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 250px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  background: #ffffff;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  box-shadow: 0 0.1vw 0.5vw 0 #00000066;
+  transition: color 0.5s;
+  font-weight: bold;
+}
+
+.projects-banner-section{
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 10%;
+  padding-right: 10%;
+  position: relative;
+  background: transparent;
+  align-items: center;
+  /*background-image: linear-gradient(to right, #b3ffea,#2e7d99);*/
+}
+
+
+
+.the-fancy-line{
+  width: 1vw;
+  left: -1.4vw;
+  top:2.5%;
+  position: absolute;
+  height: 81%;
+  margin-bottom: 15%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  filter: drop-shadow(0vw 0.3vw 0.6vw #00000048)
+}
+
+
+.timeline-item::before{
+  top: 20px;
+  width: 2.3vw;
+  height: 2.2vw;
+  position: absolute;
+  left: -6vw;
+  content: "";
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: inline-block;
+  filter: drop-shadow(0vw 0.3vw 0.6vw #00000048)
+}
+
+
+
+
+.timeline-item-content li{
+  padding-top: 2px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  font-size: 1.25vw;
+}
+.timeline-item-content ul{
+  padding-left: 5%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+
+.timeline-item-content{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  background: #ffffff;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  box-shadow: 0 0.1vw 0.5vw 0 #00000066;
+  transition: color 0.5s;
+}
+
+.timeline-item-title-title{
+  font-weight: 500;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  font-size: 1.6vw;
+  position: relative;
+  padding-top: 15px;
+  padding-right: 15px;
+  text-align: left;
+  justify-content: left;
+}
+
+.timeline-item-title-date{
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vw;
+  padding-top: 15px;
+  float: right;
+  position: fixed;
+  right: 2%;
+  /*margin-left: 87%;*/
+  text-align: right;
+}
+
+.timeline-item-title{
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  /*padding-top: 15px;*/
+  width: 100%;
+  display: grid;
+  position: relative;
+  background: white;
+  /*james values: (to left, #748bed,#75d8ef);
+  /* this makes the gradient throughout all the images background-attachment: fixed;
+  this is making the background stay on black screen position: relative;*/
+  box-shadow: 0 0.1vw 0.5vw 0 #00000066;
+  user-select: none;
+  overflow: hidden;
+}
+
+.wrapper02{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  align-items:center;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+/*timeline cases*/
+.timeline-item{
+  float: left;
+  border-radius: 10px;
+  width: 90%;
+  margin: 10px;
+  transition: 200ms;
+  /*cursor: pointer;*/
+}
+
+
+.timeline-section{
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 10%;
+  padding-right: 10%;
+  position: relative;
+  background: #276ED9;
+  background-image: linear-gradient(to right, #b3ffea,#2e7d99);
+}
+
+
+.fade-in {
+  opacity: 0;
+  transform: scale(0.5);
+  transition: opacity 250ms ease-in transform 250ms ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.slide-in{
+  transform: translateX(-50%);
+  transition: opacity 400ms ease-in, transform 400ms ease-in;
+  opacity: 0;
+}
+
+.slide-in.appear{
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+
+.software-and-tools{
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: transparent;
+}
+
+.sub-headings{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  color: #2e7d99;
+  padding-top: 8%;
+  margin-bottom: 1%;
+}
+
+
+.experience-logo{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 160px;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background: #276ED9;
+  background-image: linear-gradient(to right, #b3ffea,#2e7d99);
+  background-attachment: fixed;
+  /*james values: (to left, #748bed,#75d8ef);
+  /* this makes the gradient throughout all the images background-attachment: fixed;
+  this is making the background stay on black screen position: relative;*/
+  box-shadow: 0 0.1vw 0.5vw 0 #00000066;
+  user-select: none;
+  overflow: hidden;
+}
+
+.experience-text{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 160px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  background: #ffffff;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  box-shadow: 0 0.1vw 0.5vw 0 #00000066;
+  transition: color 0.5s;
+  font-weight: bold;
+}
+
+
+
+
+.experience-logo img{
+  width: 100%;
+  padding: 20%;
+  filter: drop-shadow(0px 0.3vw 0.6vw #00000083);
+}
+
+
+
+.wrapper01{
+  display: flex;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content: center;
+}
+
+
+/*software and tools cases*/
+.experience{
+  float: left;
+  border-radius: 10px;
+  width: 170px;
+  height: 219px;
+  margin: 10px;
+  transition: 250ms;
+  cursor: pointer;
+}
+
+.experience:hover{
+  transform: scale(1.3);
+  /*transition: transform 250ms ease-in;*/
+}
+
+.nav-bar{
+  position: fixed;
+  z-index: 12;
+}
+
+/*the nav bar uptop*/
+nav{
+  display: flex;
+  box-shadow: 0 0.1vw 0.5vw 0 #00000066;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  min-height: 8vh;
+  font-family: 'Roboto', sans-serif;
+  background-color: #FFF;
+
+}
+.main-01{
+  z-index: 2;
+}
+
+.landing{
+  min-height: 100vh;
+  width: 100%;
+  /* linear-gradient(to right, #b3ffea,#2e7d99);*/
+  /*background: url('./img/ocean sea colourful.jpg');*/
+  background: radial-gradient(  #84CDC7,#256880);
+  background-size: 175% 175%;
+  /*position: center;*/
+  display: flex;
+  padding: 0rem 0rem;
+  animation: change 25s  infinite;
+}
+
+@keyframes change {
+  0% {
+    background-position: 0% 100%;
+  }
+  25% {
+    background-position: 90% 90%;
+  }
+  50% {
+    background-position: 100% 0%;
+  }
+  75% {
+    background-position: 0% 0%;
+  }
+  100%{
+    background-position: 0% 100%;
+  }
+}
+
+
+.logo{
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 22px;
+  color: #2E7D99;
+  font-family:
+}
+
+.logo a{
+  color: #2E7D99;
+  text-decoration: none;
+  font-weight:bold;
+  cursor: pointer;
+}
+
+.hello-im-parth{
+  /*position: absolute;*/
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  align-self: flex-end;
+  width: 100%;
+  bottom: 5%;
+  vertical-align: middle;
+  padding: 10px;
+  margin-bottom: 5%;
+  margin-left: 10%;
+}
+.big-text-hello{
+  font-size: 6rem;
+  color: white;
+}
+.big-text-im-parth{
+  font-size: 9rem;
+  color: white;
+  letter-spacing: 8px;
+}
+.big-text-cs-student{
+  font-weight: lighter;
+  padding-left: 15px;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.intro{
+  background: black;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-text{
+  color: rgb(255, 255, 255);
+  font-family: 'Roboto', sans-serif;
+  font-size: 5rem;
+}
+
+.slider{
+  background: #7bb6cc;
+  background-image: linear-gradient(to right, #b3ffea,#2e7d99);
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}
+
+.hide{
+  background: black;
+  overflow: hidden;
+}
+
+.hide span{
+  transform: translateY(100%);
+  display: inline-block;
+}
+
+.fancy-link::after{
+  content: '';
+  display: block;
+  width: 100%;
+  margin-top: 2px;
+  transform: scaleX(0);
+  /*position: absolute;*/
+  height: 3px;
+  background: #2E7D99;
+  transition: transform 250ms ease-in;
+}
+
+.fancy-link:hover::after{
+  transform: scaleX(1);
+}
+
+.fancy-link{
+  color: #2E7D99;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight:bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.nav-links li{
+  list-style: none;
+}
+/*
+.nav-links a{
+
+}*/
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div{
+  width: 25px;
+  height: 3px;
+  background-color: #2E7D99;
+  margin: 5px;
+  transition: all 0.2s ease;
+}
+
+
+.mobile{
+    display: none;
+    height: 100vh;
+    min-width: 100%;
+    font-size: 20px;
+    background: #276ED9;
+    width: inherit;
+    background-image: linear-gradient(to right, #2E7D99,#5AA8B4);
+    background-attachment: fixed;
+    /*margin-bottom: 10px;*/
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+.mobile-img img{
+  padding-top: 10vh;
+  background-image: linear-gradient(to right, #2E7D99,#5AA8B4);
+  background-attachment: fixed;
+  max-width: 20%;
+  /*height: 25vh;*/
+}
+
+.oh-no{
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-right: 5%;
+  font-size: 30vw;
+  font-weight: 700;
+  background-image: linear-gradient(to right, #2E7D99,#5AA8B4);
+  background-attachment: fixed;
+}
+
+.on-mobile{
+  padding-left: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+  background-image: linear-gradient(to right, #2E7D99,#5AA8B4);
+  background-attachment: fixed;
+  font-size: 7vw;
+  font-weight: 300;
+}
+.footer-sm1 img{
+  max-width: 55px;
+  max-height: 55px;
+  padding: 10px;
+  opacity: 0.5;
+  float: left;
+}
+.footer-sm1{
+  display: none;
+  float: center;
+  padding-top: 15px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: inline-block;
+  align-items: center;
+}
+.cookies{
+  position: fixed;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fc4e4e;
+  min-height: 6vh;
+  bottom: -100px;
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  padding: 10px;
+  width: 100%;
+  z-index: 12;
+  transition: 400ms;
+}
+.cookies.active {
+  bottom: 0;
+}
+.cookies img{
+  right: 10px;
+  height: 4vh;
+  top: 1vh;
+  position: absolute;
+  transform: scale(0.5);
+}
+.cookies.active{
+  bottom: 0px;
+}
+.button01{
+  cursor: pointer;
+}
+
+.button01 img{
+  top: 2vh;
+}
+
+@media screen and (max-width:1500px){
+  .nav-links{
+    width: 60%;
+  }
+}
+
+@media screen and (max-width:1080px){
+  body{
+    overflow-x: hidden;
+  }
+  .button01 img{
+    top: auto;
+    bottom: 1vh;
+  }
+  .mobile{
+      display: block;
+  }
+  .contact-section{
+    display: none;
+  }
+  .slider{
+    display: none;
+  }
+  .software-and-tools{
+    display: none;
+  }
+  .timeline-section{
+    display: none;
+  }
+  .projects-banner-section{
+    display: none;
+  }
+  .timeline-section{
+    display: none;
+  }
+  .awards-section{
+    display: none;
+  }
+  .main-01{
+    display: none;
+  }
+  .blobsArea{
+    display: none;
+  }
+  /*.nav-links{
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: white;
+    opacity: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+  .nav-links li{
+    opacity: 0;
+  }
+  .burger{
+    display: block;
+  }
+
+  .hello-im-parth{
+    transform: scale(0.5);
+    padding: 0px;
+    left: 0px;
+    bottom: 0px;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    vertical-align: none;
+  }
+  .software-and-tools {
+    padding-left: 1%;
+    padding-right: 1%;*/
+}
+}
+
+.nav-active{
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+  from{
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1{
+  transform: rotate(-45deg) translate(-5px, 6px);
+
+}
+.toggle .line2{
+opacity: 0;
+
+}
+.toggle .line3{
+  transform: rotate(45deg) translate(-5px, -6px);
+}
