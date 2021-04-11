@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{projects} !-d
+RewriteCond %{projects}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]

@@ -79,24 +79,7 @@ cookieButton.addEventListener("click", () => {
 });
 
 setTimeout(() => {
-  //if (!localStorage.getItem("cookieBannerDisplayed")) {
+  if (!localStorage.getItem("cookieBannerDisplayed")) {
     cookieContainer.classList.add("active");
-  //}
+  }
 }, 1000);
-
-
-/*
-const cookie = document.querySelector("cookies");
-const cookieButton = document.querySelector("button01");
-
-cookieButton.addEventListener("click", () => {
-  cookie.classList.remove("active");
-  //localStorage.setItem("cookieBannerDisplayed", "true");
-});
-/*
-cookiebutton.addEventListener("click", () => {
-  cookie.classList.remove("active");
-});
-setTimeout( () => {
-  cookie.classList.add("active");
-}, 2000);*/
