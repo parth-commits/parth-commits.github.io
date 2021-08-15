@@ -9,7 +9,9 @@ html{
   padding: 0px;
   box-sizing: border-box;
 }
-
+a {
+  color: #000000;
+}
 .abs {
     position: absolute;
     width: 100%;
@@ -996,7 +998,7 @@ nav{
   letter-spacing: 5px;
   font-size: 22px;
   color: #2E7D99;
-  font-family:
+  /*font-family:*/
 }
 
 .logo a{
@@ -1302,7 +1304,6 @@ nav{
   .software-and-tools {
     padding-left: 1%;
     padding-right: 1%;*/
-}
 }
 
 .nav-active{
