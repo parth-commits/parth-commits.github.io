@@ -9,6 +9,10 @@ html{
   padding: 0px;
   box-sizing: border-box;
 }
+.confetti {
+  position: absolute;
+  top: 0px;
+}
 a {
   color: #000000;
 }

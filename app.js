@@ -1,3 +1,47 @@
+var myCanvas = document.createElement('canvas');
+myCanvas.classList.add('confetti');
+document.body.appendChild(myCanvas);
+
+
+let colors = ['#ff2f00', '#f2ff00', '#11ff00', '#4791ff', '#b338ff', '#ff2b80'];
+let end = Date.now();
+let isConfettiRunning = false;
+function runConfetti() {
+    end = Date.now() + (1 * 1000);
+    frame();
+}
+function frame() {
+  confetti({
+    particleCount: 6,
+    angle: 60,
+    spread: 95,
+    origin: { x: 0, y: 0.8},
+    colors: colors
+  });
+  confetti({
+    particleCount: 6,
+    angle: 120,
+    spread: 95,
+    origin: { x: 1, y: 0.8 },
+    colors: colors
+  });
+
+  if (Date.now() < end) {
+    requestAnimationFrame(frame);
+  }
+}
+
+let confettiItems = Array.prototype.slice.call( document.getElementsByClassName('confetti-items') );
+for (let i = 0; i < confettiItems.length; i++) {
+  confettiItems[i].onmouseenter = async function(){
+    if (!isConfettiRunning) {
+      isConfettiRunning = true;
+      runConfetti();
+      await new Promise(r => setTimeout(r, 2000));
+      isConfettiRunning = false;
+    }
+  };
+}
 const tl = gsap.timeline({defaults: {ease: 'power1.out'}});
 /*
 tl.to('.text-hide', {y: "0%", duration: 1, stagger: 0.25});
