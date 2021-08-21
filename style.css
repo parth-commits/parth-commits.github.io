@@ -603,7 +603,7 @@ a {
   opacity: 0;
   font-size: 20px;
   padding-top:10px;
-  color: #000000;
+  color: #ffffff;
   font-family: 'Roboto', sans-serif;
   text-align: center;
   transition: opacity 400ms ease-in, transform 400ms ease-out;
