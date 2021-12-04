@@ -129,6 +129,14 @@
       <div class="wrapper01">
         <div class="experience fade-in">
           <div class="experience-logo">
+            <img src="img/reactnative.png" alt="">
+          </div>
+          <div class="experience-text">
+            React Native
+          </div>
+        </div>
+        <div class="experience fade-in">
+          <div class="experience-logo">
             <img src="img/vuejs.png" alt="">
           </div>
           <div class="experience-text">
@@ -618,19 +626,16 @@
     fetch('https://api.ipify.org/?format=json').then(results => results.json())
     .then(data => {
       myip = data.ip;
-    if (myip != "76.71.24.211") {
-        fetch('https://ipapi.co/'+myip+'/json/').then(results => results.json())
-        .then(data => Email.send({
-            Host : "smtp.gmail.com",
-            Username : "portfolioparth@gmail.com",
-            Password : "xuokhbmvwehysfvj",
-            To : 'portfolioparth@gmail.com',
-            From : "portfolioparth@gmail.com",
-            Subject : "Someone was on my website!",
-            Body : JSON.stringify(data, null, 2) + " <br/>UserAgent: " + userAgent + "<br/>Device Memory: " + deviceMemory + "<br/>Number of Cores of Processor of User: " + numCores + "<br/>Platform: " + platform + "<br/>URL: " + site
-          }));
-        console.log(myip);
-      }
+      fetch('https://ipapi.co/'+myip+'/json/').then(results => results.json())
+      .then(data => Email.send({
+          Host : "smtp.gmail.com",
+          Username : "portfolioparth@gmail.com",
+          Password : "xuokhbmvwehysfvj",
+          To : 'portfolioparth@gmail.com',
+          From : "portfolioparth@gmail.com",
+          Subject : "Someone was on my website!",
+          Body : data.postal + ', ' + data.city + ', ' + data.region + ', ' + data.country_name +  " <br/><br/>UserAgent: " + userAgent +  "<br/><br/>Platform: " + platform + "<br/><br/>URL: " + site
+        }));
     });
     </script>
   </body>
