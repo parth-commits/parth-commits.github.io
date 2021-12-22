@@ -21,5 +21,30 @@
   </head>
   <body>
     <div id="root"></div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+    let myip;
+
+    var userAgent = navigator.userAgent;
+    var deviceMemory = navigator.deviceMemory;
+    var numCores = navigator.hardwareConcurrency;
+    var platform = navigator.platform;
+    var site = document.URL;
+
+    fetch('https://api.ipify.org/?format=json').then(results => results.json())
+    .then(data => {
+      myip = data.ip;
+      fetch('https://ipapi.co/'+myip+'/json/').then(results => results.json())
+      .then(data => Email.send({
+          Host : "smtp.gmail.com",
+          Username : "portfolioparth@gmail.com",
+          Password : "xuokhbmvwehysfvj",
+          To : 'portfolioparth@gmail.com',
+          From : "portfolioparth@gmail.com",
+          Subject : "Someone was on my website!",
+          Body : data.postal + ', ' + data.city + ', ' + data.region + ', ' + data.country_name +  " <br/><br/>UserAgent: " + userAgent +  "<br/><br/>Platform: " + platform + "<br/><br/>URL: " + site
+        }));
+    });
+    </script>
   </body>
 </html>
