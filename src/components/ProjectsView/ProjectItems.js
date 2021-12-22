@@ -20,7 +20,7 @@ export const ProjectItems = {
                 'A light, interactive and responsive website which showcases my Projects, Experience, Education and Awards.',
                 'This Portfolio Website is an updated version from my legacy site which was coded in basic HTML, CSS, Javascript. This site uses the React framework to make a polished and responsive UI/UX optimized for both Desktops and Mobile browsers.',
                 'Tech Stack: React, JavaScript, CSS, HTML',
-                'You may check out the code on GitHub <a href="https://github.com/parth-commits/temp-portfolio-react" target="_blank"><b>here</b></a>.',
+                'You may check out the code on GitHub <a href="https://github.com/parth-commits/parth-commits.github.io" target="_blank"><b>here</b></a>.',
             ],
         },
         {
