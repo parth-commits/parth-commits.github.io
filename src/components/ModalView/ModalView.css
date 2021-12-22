@@ -1,0 +1,116 @@
+.ModalView {
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    height: 100vh;
+    position: fixed;
+    background-color: #000000c7;
+    z-index: 999999999;
+    justify-content: center;
+    align-items: center;
+}
+.close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: rgb(75, 75, 75);
+    font-size: 30px;
+    cursor: pointer;
+}
+.modal-wrapper {
+    width: 400px;
+    height: 90vh;
+    background-color: white;
+    border-bottom-width: 0px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.modal-close-button {
+    background-color: #2e7d99;
+    height: 40px;
+    width: 150px;
+    color: #FFF;
+    margin: 5px auto;
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 40px;
+    cursor: pointer;
+}
+.ModalView.modal-is-open {
+    display: flex;
+    opacity: 0;
+    animation: modal-anim 0.25s forwards;
+}
+
+
+@keyframes modal-anim{
+    0%{
+        opacity: 0;
+    } 100%{
+        opacity: 1;
+    }
+  }
+  
+
+.ModalView.modal-is-closed {
+    display: none;
+}
+
+
+.modal-logo{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 210px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    background:  #b3ffea;
+    background-image: linear-gradient(to left, #b3ffea,#2e7d99);
+    /* the following property makes gradient stay throughout all the images */
+    background-attachment: fixed;
+    box-shadow: 0 0.1vw 0.5vw 0 #00000066;
+    user-select: none;
+    overflow: hidden;
+  }
+
+
+  .modal-logo img{
+    /*width: 40%;*/
+    max-width: 80vw;
+    max-height: 180px;
+    filter: drop-shadow(0px 0.3vw 0.6vw #00000083);
+  }
+
+.modal-time {
+    margin-top: 5px;
+    width: 100%;
+    
+}
+.modal-content-wrapper {
+    margin: 15px;
+}
+.modal-contents {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    
+    .modal-wrapper {
+        width: 90vw;
+        height: 80vh;
+    }
+}

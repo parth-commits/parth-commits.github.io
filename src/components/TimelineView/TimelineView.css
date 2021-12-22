@@ -1,0 +1,25 @@
+
+.TimelineViewItems {
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    background: #ffffff;
+    background-image: linear-gradient(to right, #b3ffea,#2e7d99);
+}
+
+.timeline-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    align-items:center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+@media screen and (max-width: 960px) {
+    .TimelineViewItems {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}

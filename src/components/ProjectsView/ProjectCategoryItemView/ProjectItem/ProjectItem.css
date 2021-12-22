@@ -1,0 +1,140 @@
+
+.project-item-logo{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 200px;
+    height: 210px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background:  #b3ffea;
+    background-image: linear-gradient(to left, #b3ffea,#2e7d99);
+    /* the following property makes gradient stay throughout all the images */
+    background-attachment: fixed;
+    box-shadow: 0 0.1vw 0.5vw 0 #00000066;
+    user-select: none;
+    overflow: hidden;
+  }
+  
+  .project-item-text{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 200px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-size: 20px;
+    height: 45px;
+    line-height: 27px;
+    margin-bottom: 10px;
+    background: #ffffff;
+    letter-spacing: 0.5px;
+    text-align: center;
+    box-shadow: 0 0.1vw 0.5vw 0 #00000066;
+    transition: color 0.5s;
+    font-weight: bold;
+    color: #4e4e4e;
+  }
+  .project-item-text-div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    -webkit-box-orient: vertical;
+  }
+  .project-item-logo img{
+    width: 100%;
+    padding: 20%;
+    filter: drop-shadow(0px 0.3vw 0.6vw #00000083);
+  }
+  
+  .project-item{
+      border-radius: 10px;
+      width: 200px;
+      height: 250px;
+      margin: 20px;
+      transition: 250ms;
+      cursor: pointer;
+      background-attachment: fixed;
+  }
+    
+  .project-item:hover{
+    transform: scale(1.1);
+}
+  
+@media screen and (max-width: 960px) {
+.project-item-logo{
+    border-top-left-radius: 10px;
+    /* top right doesnt need a radius, so 0*/
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: #ffffff;
+    background-image: linear-gradient(to right, #b3ffea,#2e7d99);
+    /* the following property makes gradient stay throughout all the images */
+    background-attachment: fixed;
+    box-shadow: 0 0.1vw 0.5vw 0 #00000066;
+    user-select: none;
+    overflow: hidden;
+  }
+  
+  .project-item-text{
+    /* top left and bottom left doesnt need a radius, so 0*/
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: calc(100% - 50px);
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    background: #ffffff;
+    color: #4e4e4e;
+    letter-spacing: 0.5px;
+    text-align: left;
+    box-shadow: 0 0.1vw 0.5vw 0 #00000066;
+    transition: color 0.5s;
+    font-weight: bold;
+  }
+  .project-item-text-div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    -webkit-box-orient: vertical;
+  }
+  
+  .project-item-logo img{
+    width: 100%;
+    padding: 20%;
+    filter: drop-shadow(0px 0.3vw 0.6vw #00000083);
+  }
+  
+  .project-item{
+      border-radius: 10px;
+      width: calc(100% - 20px);
+      display: flex;
+      flex-direction: row;
+      height: 50px;
+      margin: 10px;
+      transition: 250ms;
+      cursor: default;
+  }
+  /* nothing should happen on hover on mobile */
+  .project-item:hover{
+      transform: scale(1);
+  }
+}

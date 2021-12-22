@@ -1,0 +1,58 @@
+
+.LandingViewItems {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(0deg, #2e7d99 0%, #b3ffea 100%);
+}
+.hello-im-parth {
+    align-self: flex-end;
+    margin-left: 10rem;
+    margin-bottom: 6rem;
+    color: white;
+}
+
+.big-text-hello {
+    font-size: 7rem;
+    line-height: 7rem;
+}
+.big-text-im-parth {
+    font-size: 12rem;
+    line-height: 12rem;
+}
+.big-text-cs-student {
+    font-size: 2rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    white-space: normal;
+    word-wrap: normal;
+}
+
+
+@media screen and (max-width: 960px) {
+    
+    .hello-im-parth {
+        align-self: flex-end;
+        margin-left: 2rem;
+        margin-bottom: 50px;
+        color: white;
+    }
+    
+    .big-text-hello {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .big-text-im-parth {
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .big-text-cs-student {
+        font-size: 20px;
+        line-height: 24px;
+        max-width: 95%;
+        letter-spacing: 1px;
+        white-space: normal;
+        word-wrap: normal;
+    }
+
+}
