@@ -14,21 +14,6 @@ class ProjectsView extends Component {
         logo: 'sb-wApp.png',
         descriptionItems: [
             'this is a temporary test message, will be populated with real data later',
-            'this is a temporary test message, will be populated with real data later',
-            'this is a temporary test message, will be populated with real data later',
-            'this is a temporary test message, will be populated with real data later',
-            'this is a temporary test message, will be populated with real data later',
-            'this is a temporary test message, will be populated with real data later',
-            'this is a temporary test message, will be populated with real data later',
-            'this is a temporary test message, will be populated with real data later',
-            'this is a temporary test message, will be populated with real data later',
-            'this is a temporary test message, will be populated with real data later',
-            'this is a temporary test message, will be populated with real data later',
-            'this is a temporary test message, will be populated with real data later',
-            'this is a temporary test message, will be populated with real data later',
-            'this is a temporary test message, will be populated with real data later',
-            'this is a temporary test message, will be populated with real data later',
-            'this is a temporary test message, will be populated with real data later',
         ],
     } }
 

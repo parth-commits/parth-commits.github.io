@@ -18,7 +18,7 @@ class ModalView extends Component {
     render() {
         return(
             <div id="my-modal" className={`ModalView ${this.props.state.isModalOpen ? 'modal-is-open' : 'modal-is-closed'}`} onClick={this.handleClick}>
-                <Scrollbars style={{ width: '400px', height: '80vh' }} className="modal-wrapper" onClick={this.notclick}>
+                <Scrollbars style={{ width: '90vw', height: '80vh', maxWidth: '400px' }} className="modal-wrapper" onClick={this.notclick}>
                     <div className="modal-logo">
                         <i className="close-button fas fa-times" onClick={this.handleClick}></i>
                         <img src={require(`../ProjectsView/ProjectCategoryItemView/img/${this.props.state.modalContent.logo}`)} alt=""></img>
