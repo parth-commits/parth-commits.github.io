@@ -1,6 +1,6 @@
 export const TimelineItems = [
     {
-        position: 'AR Applications Development Engineer',
+        position: 'AR Applications Development Engineer Intern',
         company: 'ModiFace - a L\'Oréal Company',
         time: 'May 2021 - Present',
         isExpanded: true,
