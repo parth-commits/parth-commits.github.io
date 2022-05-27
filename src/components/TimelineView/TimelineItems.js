@@ -21,7 +21,7 @@ export const TimelineItems = [
             'Developed 8 apps that aid in making the user’s daily life activities more convenient. For example, built a <a href="https://galaxy.store/starbucks" target="_blank"><b>Starbucks Rewards App</b></a> - with currently over <b class="confetti-items">10,000</b> users - which allows them to use the Rewards Card right from the smartwatch.',
             'Further optimized the flow by developing a widget that the user can add to the home screen of the smartwatch to improve time to scan the Rewards code by 90%',
             'Other interesting apps include: <a href="https://galaxy.store/sqadoxczl" target="_blank"> <b> SB Scan + Pay</b></a>, <a href="https://galaxy.store/tims1" target="_blank"><b>Tims Rewards</b></a>, <a href="https://galaxy.store/tic1" target="_blank"><b>TicTacToe</b></a>, <a href="https://galaxy.store/sudoku3" target="_blank"><b>Sudoku</b></a>.',
-            'Total Downloads from all apps: <b class="confetti-items">13,000+</b>',
+            'Total Downloads from all apps: <b class="confetti-items">20,000+</b>',
         ],
     },
     {
