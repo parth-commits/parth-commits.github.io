@@ -1,8 +1,8 @@
 export const TimelineItems = [
     {
-        position: 'AR Applications Development Engineer Intern',
+        position: 'AR Applications Development Engineer',
         company: 'ModiFace - a L\'Oréal Company',
-        time: 'May 2021 - Present',
+        time: 'May 2021 - April 2022',
         isExpanded: true,
         descriptionItems: [
             'Developed and upgraded the core SDK in a team of 7, expanding it with features to provide a better User Experience',
@@ -12,7 +12,7 @@ export const TimelineItems = [
         ],
     },
     {
-        position: 'Private Watch App Developer',
+        position: 'Watch App Developer',
         company: 'Samsung Galaxy Store',
         time: 'June 2021 - Present',
         isExpanded: true,

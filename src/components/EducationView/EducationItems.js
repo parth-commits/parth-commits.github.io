@@ -6,7 +6,7 @@ export const EducationItems = [
         isExpanded: true,
         descriptionItems: [
             {
-                title: 'Dean\'s List (cGPA: 3.71)',
+                title: 'U of T Dean\'s Scholar (cGPA: 3.7)',
                 sublist: [],
             },
             {
