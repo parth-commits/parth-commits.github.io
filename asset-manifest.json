@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.63f67c19.css",
+    "main.css": "/static/css/main.918eac63.css",
     "main.js": "/static/js/main.d4f52dfb.js",
     "static/media/gimp.png": "/static/media/gimp.efbc207ad84ab44dfe76.png",
     "static/media/windows-os-logo.png": "/static/media/windows-os-logo.d6c01210a5cb0ef3b5e6.png",
@@ -35,11 +35,11 @@
     "static/media/css.png": "/static/media/css.d9bcd77142299ea64115.png",
     "static/media/javascript.png": "/static/media/javascript.3abb3de3f1e1d537ad2e.png",
     "index.html": "/index.html",
-    "main.63f67c19.css.map": "/static/css/main.63f67c19.css.map",
+    "main.918eac63.css.map": "/static/css/main.918eac63.css.map",
     "main.d4f52dfb.js.map": "/static/js/main.d4f52dfb.js.map"
   },
   "entrypoints": [
-    "static/css/main.63f67c19.css",
+    "static/css/main.918eac63.css",
     "static/js/main.d4f52dfb.js"
   ]
 }
