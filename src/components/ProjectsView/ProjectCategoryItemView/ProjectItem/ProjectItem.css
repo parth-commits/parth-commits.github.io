@@ -61,9 +61,6 @@
       background-attachment: fixed;
   }
     
-  .project-item:hover{
-    transform: scale(1.1);
-}
   
 @media screen and (max-width: 960px) {
 .project-item-logo{
@@ -133,8 +130,5 @@
       transition: 250ms;
       cursor: default;
   }
-  /* nothing should happen on hover on mobile */
-  .project-item:hover{
-      transform: scale(1);
-  }
+  
 }

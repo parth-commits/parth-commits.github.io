@@ -74,9 +74,6 @@
     cursor: pointer;
 }
   
-.experience:hover{
-    transform: scale(1.3);
-}
 
 .experience-text p{
     color: #4e4e4e;
@@ -150,10 +147,6 @@
   }
   .experience-text p{
       color: #4e4e4e;
-  }
-  /* nothing should happen on hover on mobile */
-  .experience:hover{
-      transform: scale(1);
   }
   
 }
