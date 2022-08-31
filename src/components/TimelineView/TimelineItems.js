@@ -7,7 +7,8 @@ export const TimelineItems = [
         descriptionItems: [
             'Developed and upgraded the core SDK in a team of 7, expanding it with features to provide a better User Experience',
             '<b>Solved critical errors</b> for multiple SDKs by designing automated tests and fixing bugs which provided an error-free experience to <b>millions</b> of customers of top makeup brands worldwide including L’Oréal, Maybelline and NYX.',
-            'Principles oriented developer emphasizing frequent code reviews and peer programming sessions to improve code quality by 50%.',
+            'Contributed to Frontend Libraries improving the efficiency of the SDK.',
+            'Principles oriented engineer emphasizing frequent code reviews and peer programming sessions to improve code quality by 50%.',
             'Experience with JavaScript, Vue.js framework and Python.',
         ],
     },

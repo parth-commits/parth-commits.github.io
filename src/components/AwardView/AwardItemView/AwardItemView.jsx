@@ -10,7 +10,7 @@ class AwardItemView extends Component {
         return(
             <div className="award-item fade-in">
                 <label className={`award-item-title ${this.state.open ? 'award-content-open' : 'award-content-closed'}`} onClick={this.handleClick}>
-                    <h3 className="award-item-title-title"><i className={`fas fa-caret-right ${this.state.open ? 'award-caret-open' : 'award-caret-closed'}`}></i>{this.props.item.awardName}, {this.props.item.schoolName}</h3>
+                    <h3 className="award-item-title-title"><i className={`fas fa-caret-right ${this.state.open ? 'award-caret-open' : 'award-caret-closed'}`}></i>{this.props.item.awardName}</h3>
                     <p className="award-item-title-date">{this.props.item.time}</p>
                 </label>
                 <div className={`award-item-content ${this.state.open ? 'award-content-open' : 'award-content-closed'}`}>

@@ -16,6 +16,15 @@ export const EducationItems = [
             {
                 title: 'Past Courses:',
                 sublist: [
+                    'Algorithm Design and Ananlysis (CSC373)',
+                    'Programming on the Web (CSC309)',
+                    'Introduction to Database Systems (CSC343)',
+                    'Computational Linguistics (CSC485)',
+                    'Formal Methods in Software Design (CSC465)',
+                    'Introduction to Software Engineering (CSC301)',
+                    'Operating Systems (CSC369)',
+                    'Database Systems Technology (CSC443)',
+                    'Interactive Computational Media (CSC318)',
                     'Data Structures and Analysis (CSC263)',
                     'Software Design (CSC207)',
                     'Theory of Computation (CSC236)',
