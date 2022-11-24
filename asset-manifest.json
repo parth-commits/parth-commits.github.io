@@ -1,11 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.918eac63.css",
-    "main.js": "/static/js/main.4d8ea72c.js",
+    "main.js": "/static/js/main.30fb3b10.js",
     "static/media/gimp.png": "/static/media/gimp.efbc207ad84ab44dfe76.png",
     "static/media/windows-os-logo.png": "/static/media/windows-os-logo.d6c01210a5cb0ef3b5e6.png",
+    "static/media/postgres.png": "/static/media/postgres.346709d92d82791ad17d.png",
     "static/media/jokes generator.png": "/static/media/jokes generator.59254e2e621e04ff648e.png",
+    "static/media/pytorch.png": "/static/media/pytorch.4bd24272cb939b54a4e9.png",
     "static/media/covidlivedata.png": "/static/media/covidlivedata.1d8a2903ce33c7d0de77.png",
+    "static/media/psycopg2.png": "/static/media/psycopg2.5d1cdcebc778b07599fa.png",
     "static/media/scripting.png": "/static/media/scripting.cb02785253db79c3d55f.png",
     "static/media/tizen-web-framework.png": "/static/media/tizen-web-framework.4e6a08f723746de9bb99.png",
     "static/media/android-dev.png": "/static/media/android-dev.b463db76250164fc2760.png",
@@ -24,6 +27,7 @@
     "static/media/driving-alerts-toronto.png": "/static/media/driving-alerts-toronto.8537affc59217ca2fae6.png",
     "static/media/pc-icon.png": "/static/media/pc-icon.76cf4508ca1867e5b2c8.png",
     "static/media/tictactoe-wApp.png": "/static/media/tictactoe-wApp.82c2665bc369ee7a5205.png",
+    "static/media/django.jpg": "/static/media/django.4c399895f677cd3bfbc8.jpg",
     "static/media/wearable-icon.png": "/static/media/wearable-icon.c4d60abf54df2dbdb4a1.png",
     "static/media/reactnative.png": "/static/media/reactnative.f3e576ba08e6be927148.png",
     "static/media/timsrewards-wApp.png": "/static/media/timsrewards-wApp.6ec9e2ebef0b98620993.png",
@@ -36,10 +40,10 @@
     "static/media/javascript.png": "/static/media/javascript.3abb3de3f1e1d537ad2e.png",
     "index.html": "/index.html",
     "main.918eac63.css.map": "/static/css/main.918eac63.css.map",
-    "main.4d8ea72c.js.map": "/static/js/main.4d8ea72c.js.map"
+    "main.30fb3b10.js.map": "/static/js/main.30fb3b10.js.map"
   },
   "entrypoints": [
     "static/css/main.918eac63.css",
-    "static/js/main.4d8ea72c.js"
+    "static/js/main.30fb3b10.js"
   ]
 }
