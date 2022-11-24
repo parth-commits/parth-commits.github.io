@@ -1,5 +1,21 @@
 export const SoftwareItems = [
     {
+        name: 'Django',
+        image: 'django.jpg',
+    },
+    {
+        name: 'PyTorch',
+        image: 'pytorch.png',
+    },
+    {
+        name: 'PostgreSQL',
+        image: 'postgres.png',
+    },
+    {
+        name: 'Psycopg2',
+        image: 'psycopg2.png',
+    },
+    {
         name: 'React.js',
         image: 'reactnative.png',
     },

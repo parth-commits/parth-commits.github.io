@@ -22,7 +22,7 @@ class EducationItemView extends Component {
                                     <ul>
                                         {item.sublist.map((item1, index1) => {
                                             return (
-                                                <li key={index1}>{item1}</li>
+                                                <li key={index1} dangerouslySetInnerHTML={{__html: item1}}></li>
                                             )
                                         })}
                                     </ul>
