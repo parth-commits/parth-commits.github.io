@@ -18,6 +18,7 @@ export const EducationItems = [
                 sublist: [
                     'Computational Linguistics (CSC485)',
                     'Formal Methods in Software Design (CSC465)',
+                    'Business of Software (CSC454) <b><i>(in progress)</i></b>',
                     'Algorithm Design and Ananlysis (CSC373)',
                     'Operating Systems (CSC369) <b><i>(in progress)</i></b>',
                     'Introduction to Database Systems (CSC343)',

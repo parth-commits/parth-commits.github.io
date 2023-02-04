@@ -7,7 +7,8 @@ export const TimelineItems = [
         descriptionItems: [
             'Optimized application performance to improve overall speed and quality.',
             'Improved the website’s frontend and backend to provide seamless experience to customers.',
-            'Experience with JavaScript, React.js, and Node.js',
+            'Created Labs that provide a unique hands-on learning experience for engineering students.',
+            'Experience with JavaScript, React.js, JSON, and Node.js',
 
         ],
     },

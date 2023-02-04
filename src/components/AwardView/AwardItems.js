@@ -24,12 +24,8 @@ export const AwardItems = [
                 sublist: [],
             },
             {
-                title: 'Monetary Value:',
-                sublist: [
-                    '$5,000 total',
-                    '$3,000 in first year and $500/year for 4 years',
-                    '$500/year for all 4 years at the University.',
-                ],
+                title: 'Monetary Value: $5,000',
+                sublist: [],
             },
         ],
     },
@@ -65,21 +61,9 @@ export const AwardItems = [
         isExpanded: false,
         descriptionItems: [
             {
-                title: 'Awarded for having the 2nd highest GPA (98%) in the entire grade at North Albion Collegiate Institute',
+                title: 'Awarded for having the 2nd highest GPA (98%) at North Albion Collegiate Institute',
                 sublist: [],
             },
         ],
     },
 ];
-/*
-{
-                title: 'Some Courses:',
-                sublist: [
-                    'Computer Science (ICS4U1, ICS3U1, ICS201)',
-                    'Physics (SPH4U1, SPH3U1)',
-                    'Chemistry (SCH4U1, SCH3U1)',
-                    'Computer Engineering (TEJ4U1, TEJ3U1)',
-                    'Calculus (MCV4U1)',
-                ],
-            },
-*/
