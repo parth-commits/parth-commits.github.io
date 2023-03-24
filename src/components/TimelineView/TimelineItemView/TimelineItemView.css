@@ -10,7 +10,13 @@
     margin: 10px;
     transition: 200ms;
 }
-
+.new-special-button {
+  display: inline;
+  background-color: #cbffcb;
+  color: #0c430e;
+  border-radius: 5px;
+  font-size: 20px;
+}
 
 .timeline-item-title{
     color: black;

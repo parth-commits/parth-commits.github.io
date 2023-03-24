@@ -1,5 +1,15 @@
 export const TimelineItems = [
     {
+        position: 'Software Development Engineer',
+        company: 'AWS - Amazon',
+        time: 'May 2023 - (Internship)',
+        isExpanded: true,
+        descriptionItems: [
+            'Incoming SDE Intern at AWS - Amazon',
+        ],
+        isNew: true,
+    },
+    {
         position: 'Software Engineer',
         company: 'LABonWEB',
         time: 'Sept 2022 - March 2023 (Work Study)',

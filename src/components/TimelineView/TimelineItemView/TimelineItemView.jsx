@@ -10,7 +10,7 @@ class TimelineItemView extends Component {
         return(
             <div className="timeline-item fade-in">
                 <label className={`timeline-item-title ${this.state.open ? 'timeline-content-open' : 'timeline-content-closed'}`} onClick={this.handleClick}>
-                    <h3 className="timeline-item-title-title"><i className={`fas fa-caret-right ${this.state.open ? 'timeline-caret-open' : 'timeline-caret-closed'}`}></i>{this.props.item.position}, {this.props.item.company}</h3>
+                    <h3 className="timeline-item-title-title"><i className={`fas fa-caret-right ${this.state.open ? 'timeline-caret-open' : 'timeline-caret-closed'}`}></i>{this.props.item.isNew && <p className="new-special-button">&nbsp;New!&nbsp;</p>}&nbsp;{this.props.item.position}, {this.props.item.company}</h3>
                     <p className="timeline-item-title-date">{this.props.item.time}</p>
                 </label>
                 <div className={`timeline-item-content ${this.state.open ? 'timeline-content-open' : 'timeline-content-closed'}`}>
