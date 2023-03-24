@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.918eac63.css",
-    "main.js": "/static/js/main.93a7d0e5.js",
+    "main.css": "/static/css/main.b7a38179.css",
+    "main.js": "/static/js/main.117b1c15.js",
     "static/media/gimp.png": "/static/media/gimp.efbc207ad84ab44dfe76.png",
     "static/media/windows-os-logo.png": "/static/media/windows-os-logo.d6c01210a5cb0ef3b5e6.png",
     "static/media/postgres.png": "/static/media/postgres.346709d92d82791ad17d.png",
@@ -39,11 +39,11 @@
     "static/media/css.png": "/static/media/css.d9bcd77142299ea64115.png",
     "static/media/javascript.png": "/static/media/javascript.3abb3de3f1e1d537ad2e.png",
     "index.html": "/index.html",
-    "main.918eac63.css.map": "/static/css/main.918eac63.css.map",
-    "main.93a7d0e5.js.map": "/static/js/main.93a7d0e5.js.map"
+    "main.b7a38179.css.map": "/static/css/main.b7a38179.css.map",
+    "main.117b1c15.js.map": "/static/js/main.117b1c15.js.map"
   },
   "entrypoints": [
-    "static/css/main.918eac63.css",
-    "static/js/main.93a7d0e5.js"
+    "static/css/main.b7a38179.css",
+    "static/js/main.117b1c15.js"
   ]
 }
