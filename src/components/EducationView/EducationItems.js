@@ -6,7 +6,7 @@ export const EducationItems = [
         isExpanded: true,
         descriptionItems: [
             {
-                title: 'U of T Dean\'s Scholar (cGPA: 3.7)',
+                title: 'U of T Dean\'s Scholar (cGPA: 3.72)',
                 sublist: [],
             },
             {
@@ -18,13 +18,13 @@ export const EducationItems = [
                 sublist: [
                     'Computational Linguistics (CSC485)',
                     'Formal Methods in Software Design (CSC465)',
-                    'Business of Software (CSC454) <b><i>(in progress)</i></b>',
+                    'Business of Software (CSC454)',
                     'Algorithm Design and Ananlysis (CSC373)',
-                    'Operating Systems (CSC369) <b><i>(in progress)</i></b>',
+                    'Operating Systems (CSC369)',
                     'Introduction to Database Systems (CSC343)',
                     'Interactive Computational Media (CSC318)',
                     'Programming on the Web (CSC309)',
-                    'Introduction to Software Engineering (CSC301) <b><i>(in progress)</i></b>',
+                    'Introduction to Software Engineering (CSC301)',
                     'Probability and Statistics with Computer Applications (STA247)',
                     'Data Structures and Analysis (CSC263)',
                     'Computer Organization(CSC258)',
