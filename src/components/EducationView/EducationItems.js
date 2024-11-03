@@ -19,6 +19,7 @@ export const EducationItems = [
                     'Computational Linguistics (CSC485)',
                     'Formal Methods in Software Design (CSC465)',
                     'Business of Software (CSC454)',
+                    'Computer Networks (CSC458)',
                     'Algorithm Design and Ananlysis (CSC373)',
                     'Operating Systems (CSC369)',
                     'Introduction to Database Systems (CSC343)',

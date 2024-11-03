@@ -1,5 +1,25 @@
 export const SoftwareItems = [
     {
+        name: 'Java',
+        image: 'java.png',
+    },
+    {
+        name: 'Python',
+        image: 'python.png',
+    },
+    {
+        name: "TypeScript",
+        image: "ts.png"
+    },
+    {
+        name: 'C',
+        image: 'c-programming.png',
+    },
+    {
+        name: 'C++',
+        image: 'cpp.png',
+    },
+    {
         name: 'Django',
         image: 'django.jpg',
     },
@@ -36,40 +56,16 @@ export const SoftwareItems = [
         image: 'reactnative.png',
     },
     {
-        name: 'Expo',
-        image: 'expo.png',
+        name: 'HTML 5',
+        image: 'html.png',
     },
     {
         name: 'CSS 3',
         image: 'css.png',
     },
     {
-        name: 'Jenkins',
-        image: 'jenkins.png',
-    },
-    {
         name: 'NoSQL',
         image: 'nosql.png',
-    },
-    {
-        name: 'MIPS Assembly',
-        image: 'mips.png',
-    },
-    {
-        name: 'Python',
-        image: 'python.png',
-    },
-    {
-        name: 'C',
-        image: 'c-programming.png',
-    },
-    {
-        name: 'Java',
-        image: 'java.png',
-    },
-    {
-        name: 'Tizen Web App',
-        image: 'tizen-web-framework.png',
     },
     {
         name: 'R',
@@ -80,27 +76,11 @@ export const SoftwareItems = [
         image: 'android-dev.png',
     },
     {
-        name: 'HTML 5',
-        image: 'html.png',
-    },
-    {
         name: 'Linux CLI',
         image: 'linux.png',
     },
     {
-        name: 'GCP',
-        image: 'gcp.png',
-    },
-    {
-        name: 'Git VCS',
+        name: 'Git',
         image: 'git.png',
-    },
-    {
-        name: 'GIMP',
-        image: 'gimp.png',
-    },
-    {
-        name: 'SQLite',
-        image: 'sqlite.png',
     },
 ];
